@@ -8,6 +8,7 @@ Vom Spielprinzip der Ein-Tipp-Hüpfspiele inspiriert (u. a. Flappy Bird); Grafik
 Es besteht keine Verbindung zu den Rechteinhabern dieses Vorbilds.
 
 <p align="center">
+  ![Ball Bouncer – ESP32-Spiel auf dem CrowPanel](resources/ball-bouncer-banner.png)
   <img src="resources/BallBouncer.png" alt="BallBouncer auf dem CrowPanel 1.28&quot;: Titelbildschirm" width="420">
 </p>
 

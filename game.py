@@ -63,7 +63,13 @@ def vibrate_service(now):
 
 
 # ---------------------------------------------------------------- Farben
+BRIGHTNESS = 100  # Helligkeit in Prozent (0-100), z.B. 40 zum Abfilmen mit dem Handy
+
+
 def rgb(r, g, b):
+    r = r * BRIGHTNESS // 100
+    g = g * BRIGHTNESS // 100
+    b = b * BRIGHTNESS // 100
     # framebuf speichert little-endian, der GC9A01 erwartet das hoeherwertige
     # Byte zuerst -> Standard-RGB565 mit vertauschten Bytes. (Passt zu den
     # Treiber-Konstanten red=0x07E0, green=0x001F, blue=0xF800.)
@@ -247,8 +253,8 @@ def render(state, best):
     for oy in (0, BAND_H, 2 * BAND_H):
         draw_world()
         if state == "title":
-            text_big("ORBIT", CX, 50, 3, C_TEXT)
-            text_big("HOP", CX, 80, 3, C_BALL)
+            text_big("BALL", CX, 53, 3, C_TEXT)
+            text_big("BOUNCER", CX, 83, 3, C_BALL)
             text_big("TAP TO START", CX, 175, 1, C_DIM)
             text_big("BEST " + str(best), CX, 192, 1, C_DIM)
         elif state == "play":
