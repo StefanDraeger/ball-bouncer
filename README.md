@@ -8,7 +8,7 @@ Vom Spielprinzip der Ein-Tipp-Hüpfspiele inspiriert (u. a. Flappy Bird); Grafik
 Es besteht keine Verbindung zu den Rechteinhabern dieses Vorbilds.
 
 <p align="center">
-  <img src="resources/Ball_Bouncer_im_bunten_CrowPanel-Spielhimmel.png" alt="BallBouncer auf dem CrowPanel 1.28&quot;: Titelbildschirm" width="420">
+  <img src="resources/Ball_Bouncer_im_bunten_CrowPanel-Spielhimmel.png" alt="BallBouncer auf dem CrowPanel 1.28&quot;: Titelbildschirm">
 </p>
 
 *Der Titelbildschirm von BallBouncer auf dem CrowPanel.*
