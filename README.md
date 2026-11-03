@@ -1,4 +1,4 @@
-# Orbit Hop
+# BallBouncer
 
 Ein kleines Ein-Finger-Spiel für das **Elecrow CrowPanel 1.28" Round Display** (ESP32-C3), geschrieben in MicroPython.
 Ein gelber Ball fällt durch eine Landschaft, ein Tipp auf das Display lässt ihn springen. Dazwischen hängen
@@ -8,10 +8,10 @@ Vom Spielprinzip der Ein-Tipp-Hüpfspiele inspiriert (u. a. Flappy Bird); Grafik
 Es besteht keine Verbindung zu den Rechteinhabern dieses Vorbilds.
 
 <p align="center">
-  <img src="resources/Orbit%20Hop.png" alt="Orbit Hop auf dem CrowPanel 1.28&quot;: Titelbildschirm" width="420">
+  <img src="resources/BallBouncer.png" alt="BallBouncer auf dem CrowPanel 1.28&quot;: Titelbildschirm" width="420">
 </p>
 
-*Der Titelbildschirm von Orbit Hop auf dem CrowPanel.*
+*Der Titelbildschirm von BallBouncer auf dem CrowPanel.*
 
 ---
 
@@ -161,4 +161,4 @@ Nach Änderungen die Datei neu auf das Board kopieren.
 
 Der Spielcode ist eigenständig geschrieben. Die Treiber `gc9a01.py`, `cst816d.py` und `pi4ioe5v6408ztaex.py` stammen
 vom Hersteller (Elecrow) und unterliegen dessen Bedingungen. Grafiken werden zur Laufzeit aus einfachen Formen erzeugt,
-Töne sind einfache Rechtecksignale des Buzzers. Vor einer Veröffentlichung den Namen „Orbit Hop“ auf Kennzeichenrechte prüfen.
+Töne sind einfache Rechtecksignale des Buzzers. Vor einer Veröffentlichung den Namen „BallBouncer“ auf Kennzeichenrechte prüfen.

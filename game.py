@@ -1,4 +1,4 @@
-"""Orbit Hop fuer das Elecrow CrowPanel 1.28" (ESP32-C3, GC9A01, CST816D).
+"""BallBouncer fuer das Elecrow CrowPanel 1.28" (ESP32-C3, GC9A01, CST816D).
 
 Steuerung: auf den Touchscreen tippen -> Ball springt.
 Der Displayrand ist tabu: beruehrt der Ball ihn oder eine Kugelkette, ist
